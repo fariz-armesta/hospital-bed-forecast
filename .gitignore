@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables (if you ever add API keys/secrets)
+.env
+
+# Data — raw/processed files often too large or messy for git
+# (document how to regenerate them in README instead)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VS Code (optional — some people commit shared settings, your call)
+.vscode/*
+!.vscode/settings.json
+
+# Streamlit
+.streamlit/secrets.toml
